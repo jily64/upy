@@ -24,6 +24,7 @@ class UpGame:
             #not_opened = not_opened.convert("RGBA")
             not_opened = not_opened.resize((175, 175))
             for i in range(len(self.matrix)):
+
                 pos = ((i)*200+50, None)
                 for j in range(len(self.matrix[i])):
                     pos = (pos[0], (j)*200+100)
