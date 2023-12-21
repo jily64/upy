@@ -5,8 +5,6 @@ import json
 import telegram
 from telegram import files as fil
 
-import Controller
-
 # импорты библиотек, которые мы установили (тут только python telegram bot)
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import (
